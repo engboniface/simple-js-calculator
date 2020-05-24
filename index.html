@@ -8,7 +8,9 @@
 <body>
     <form>
       Value 1: <input type='text' id='value1'>
+      <br> <br>
       Value 2: <input type='text' id='value2'>
+      <br> <br>
       Operator:
       <select id='operator'>
           <option value="add">Add</option>
@@ -16,9 +18,11 @@
           <option value="div">Divide</option>
           <option value="mul">Multiply</option>
       </select>
-      <button type='button' onclick='calc()'>Calculate</button>
+      <button type='button' onclick='calc()'>Calculate</button> <!-- can be done inside the js code-->
     </form>
-    
+    <div id='result'>
+
+    </div>
 </body>
 <script src="index.js"></script>
 </html> 
